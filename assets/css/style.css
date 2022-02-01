@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+.grandContener{
+    display: flex;
+    height: 75vh;
+}
+.grandeRubrique{
+    background-color: rgb(98, 207, 207);
+    width: 30%;
+}
+.rubrique{
+    margin: 100px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rubrique div{
+    color: white;
+    margin: 10px 0;
+}
+h2{
+    font-weight: bolder;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ligne{
+    border: 1px solid white;
+}
+img{
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+}
+.grandPictures{
+    width: 70%;
+    display: flex;
+    margin: 20px 20px;
+}
