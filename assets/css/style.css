@@ -127,7 +127,14 @@ header > nav > ul li:hover{
 @media screen and (max-width: 1250px) {
     header nav{
         width: 80%;
-        justify-content: space-between;
+        justify-content: flex-start;
+    }
+
+    .principalTitle{
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     header > nav > ul{
@@ -204,7 +211,7 @@ header > nav > ul li:hover{
     
     .menuBurgerAction span{
         position: fixed;
-        top: 30px;
+        top: 40px;
     }
     
     .menuBurgerAction span:nth-child(1){
