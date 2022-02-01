@@ -40,6 +40,9 @@ img{
     margin: 20px 20px;
     font-family: sans-serif;
 }
+
+/*----------------Melwyne---------------*/
+
 article{
     display: flex;
     flex-direction: column;
@@ -61,6 +64,7 @@ article{
     border: white solid 2px;
     border-radius: 50%;
     padding: 10px;
+    width: 80px;
 }
 .smartTitle{
     color: white;
