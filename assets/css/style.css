@@ -1,5 +1,112 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.ez {
+    width: 100%;
+    background-color: rgb(233, 172, 60);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+.blanc>p {
+    color: grey;
+    font-style: italic;
+}
+
+.adam {
+    margin-top: 20px;
+}
+
+.adam>span {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    color: white;
+}
+
+
+/********** je change de section ^^ ****/
+
+.blog {
+    position: relative;
+    background-image: url(../tinker-starter/img/blog-bg.jpg);
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+}
+
+.carreBlack {
+    width: 450px;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.6);
+}
+
+.yallah {
+    padding-top: 40px;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    color: white;
+}
+
+.trait {
+    width: 300px;
+    height: 1px;
+    background-color: white;
+}
+
+.montre {
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.montre>button {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.montre :nth-child(1) {
+    color: rgb(190, 116, 30);
+}
+
+.wsh {
+    background-image: url(../tinker-starter/img/blog_item_01.jpg);
+    width: 50%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tt {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    bottom: 0;
+    right: 1px;
+    padding: 40px;
 }
